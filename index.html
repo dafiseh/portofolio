@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Dafy</a>
+
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#" >About</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Sertificate</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="dafi.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Dafi Rizky S.</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+
+
+    <!-- Section Skills -->
+    <section>
+
+        <h2>About Me</h2>
+        <p class="quote">"Technology is just a tool, positive or negative depends on who uses it."</p>
+        <p class="description">
+            I am a software developer passionate about creating impactful web applications. 
+            With experience in various technologies including Web Development, UI/UX Design, 
+            and Programming, I aim to contribute to the tech industry by delivering high-quality 
+            solutions. I’m skilled in frontend development, have a keen eye for design, and enjoy 
+            collaborating with teams to bring innovative ideas to life.
+        </p>
+
+        <h2>Skills</h2>
+        <div class="skills-gallery">
+            <img src="img/html-5-svgrepo-com.svg" alt="">
+            <img src="img/css-3-svgrepo-com.svg" alt="CSS">
+            <img src="img/js-svgrepo-com.svg" alt="JavaScript">
+            <img src="img/unity-small-svgrepo-com.svg" alt="Figma">
+            <img src="img/figma-svgrepo-com.svg" alt="">
+            <img src="img/adobe-photoshop-svgrepo-com.svg" alt="Figma">
+            <img src="img/adobe-after-effects-svgrepo-com.svg" alt="Figma">
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, exercitationem.</p>
+            </div>
+            <div class="card">
+                <h3>UI UX Design</h3>
+                <p>Freelancer UI UX Design, memikirkan bagaimana membuat apps yang user friendly dan problem solved.</p>
+            </div>
+            <div class="card">
+                <h3>Frontend Developer</h3>
+                <p>Memiliki fondasi HTML, CSS, JavaScript, mampu melakukan slicing design dengan baik.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Sertifikat -->
+    <section>
+        <h2>Sertifikat</h2>
+        <div class="gallery">
+            <img src="https://github.com/user-attachments/assets/65060842-2b85-4316-bce3-69e6931b6789" alt="Sertifikat 1" onclick="openLightbox(0)">
+            <img src="https://github.com/user-attachments/assets/e313fb72-932b-4e05-8193-706231fa4052" alt="Sertifikat 2" onclick="openLightbox(1)">
+            <img src="https://github.com/user-attachments/assets/6b3dbd0f-cfdc-4dca-84cc-bbedc5a14be9" alt="Sertifikat 3" onclick="openLightbox(2)">
+            <img src="https://github.com/user-attachments/assets/8d5660cf-574f-41b2-a588-e8e2d186c659" alt="Sertifikat 4" onclick="openLightbox(3)">
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="">
+        </div>
+    </div>
+
+    <!-- Section Portfolio -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
